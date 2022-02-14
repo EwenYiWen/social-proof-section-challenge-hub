@@ -111,7 +111,7 @@ i {
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding: 0px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -121,19 +121,19 @@ i {
 
 @media (min-width: 800px) {
   body {
-    margin: auto;
     font-size: 15px;
-    height: auto;
-    width: 1440px;
+    height: 800px;
+    width: auto;
     background-image: url(images/bg-pattern-top-desktop.svg),
       url(images/bg-pattern-bottom-desktop.svg);
     background-position: left top, right bottom;
+    background-size: none, cover;
     background-repeat: no-repeat, no-repeat;
     padding: 0px 160px 0px 160px;
   }
 
   .title {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1em;
   }
 
@@ -171,7 +171,7 @@ i {
   .review-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px 0px 0px;
     grid-gap: 30px;
   }
   .review-box {
@@ -184,5 +184,9 @@ i {
   }
   .card-3 {
     margin: 25px 0px 0px 0px;
+  }
+
+  .testimonial {
+    font-size: 12px;
   }
 }
