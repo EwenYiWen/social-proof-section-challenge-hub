@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-social-proof-section-built-with-css-grid-and-flexbox-3S9PKIphk)
 - Live Site URL: (https://ewenyiwen.github.io/social-proof-section-challenge-hub/)
 
 ### Built with
